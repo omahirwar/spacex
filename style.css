@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+}
+
+.navbar {
+  background: #000;
+  color: #fff;
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 120px 20px;
+  background: #eee;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #6c4cff;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 15px 0 30px;
+}
+
+button {
+  background: #6c4cff;
+  color: #fff;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button.outline {
+  background: transparent;
+  color: #6c4cff;
+  border: 2px solid #6c4cff;
+}
