@@ -4,13 +4,13 @@ body {
   background: #f5f6fa;
 }
 
+/* NAVBAR */
 .navbar {
   background: #000;
   color: #fff;
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
-  align-items: center;
 }
 
 .navbar ul {
@@ -19,29 +19,29 @@ body {
   gap: 20px;
 }
 
+/* HERO */
 .hero {
   text-align: center;
   padding: 120px 20px;
-  background: #eee;
+  background: #e9e9e9;
 }
 
 .hero h1 {
-  font-size: 48px;
   color: #6c4cff;
+  font-size: 48px;
 }
 
-.hero p {
-  font-size: 18px;
-  margin: 15px 0 30px;
+.buttons button {
+  margin: 10px;
 }
 
+/* BUTTONS */
 button {
   background: #6c4cff;
-  color: #fff;
+  color: white;
   border: none;
   padding: 12px 25px;
   border-radius: 25px;
-  margin: 5px;
   cursor: pointer;
 }
 
@@ -49,4 +49,70 @@ button.outline {
   background: transparent;
   color: #6c4cff;
   border: 2px solid #6c4cff;
+}
+
+/* WELCOME */
+.welcome {
+  padding: 80px 40px;
+  text-align: center;
+  background: white;
+}
+
+.welcome h2 {
+  color: #000;
+}
+
+.welcome button {
+  margin-top: 20px;
+}
+
+/* SERVICES */
+.services {
+  padding: 80px 40px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  width: 280px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.featured {
+  border: 2px solid #6c4cff;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  background: #6c4cff;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.quote {
+  font-size: 60px;
+}
+
+.author {
+  margin-top: 20px;
+}
+
+/* FOOTER */
+.footer {
+  background: #000;
+  color: white;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
